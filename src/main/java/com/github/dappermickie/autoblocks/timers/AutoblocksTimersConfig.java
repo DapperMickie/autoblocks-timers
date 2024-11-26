@@ -1,11 +1,11 @@
-package com.example;
+package com.github.dappermickie.autoblocks.timers;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
-public interface ExampleConfig extends Config
+@ConfigGroup("autoblockstimers")
+public interface AutoblocksTimersConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
